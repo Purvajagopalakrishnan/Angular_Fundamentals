@@ -4,34 +4,39 @@
     "productName": "Apple",
     "productCode": "PRN-001",
     "description": "Fruit",
-    "price": 19.95
+    "price": 19.95,
+    "starRating": 4.1
   },
   {
     "productId": 2,
     "productName": "Potato",
     "productCode": "PRN-002",
     "description": "Vegetable",
-    "price": 32.99
+    "price": 32.99,
+    "starRating": 3.2
   },
   {
     "productId": 3,
     "productName": "Hammer",
     "productCode": "PRN-003",
     "description": "Tools",
-    "price": 42.22
+    "price": 42.22,
+    "starRating": 2.9
   },
   {
     "productId": 4,
     "productName": "Pencil",
     "productCode": "PRN-004",
     "description": "Stationery",
-    "price": 11.55
+    "price": 11.55,
+    "starRating": 1.1
   },
   {
     "productId": 5,
     "productName": "Mobile cover",
     "productCode": "PRN-005",
     "description": "Accessories",
-    "price": 35.95
+    "price": 35.95,
+    "starRating": 2.6
   }
 ]
