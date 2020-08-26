@@ -8,9 +8,9 @@ import { ProductService } from './product.service';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-  pageTitle = 'Product List';
-  showImage = false;
-  errorMessage = '';
+  private pageTitle = 'Product List';
+  private showImage = false;
+  private errorMessage = '';
 
   filteredProducts: IProduct[] = [];
   products: IProduct[] = [];

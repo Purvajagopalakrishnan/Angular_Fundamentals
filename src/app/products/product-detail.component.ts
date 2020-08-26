@@ -10,9 +10,9 @@ import { ProductService } from './product.service';
   styleUrls: ['./product-detail.component.css']
 })
 export class ProductDetailComponent implements OnInit {
-  pageTitle = 'Product Detail';
-  errorMessage = '';
-  product: IProduct;
+  private pageTitle = 'Product Detail';
+  private errorMessage = '';
+  private product: IProduct;
 
   constructor(private route: ActivatedRoute,
     private router: Router,
